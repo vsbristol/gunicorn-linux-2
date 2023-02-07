@@ -7,7 +7,6 @@ app = Flask(__name__)
 cors = CORS(app)
 
 def dbCall():
-    time.sleep(3)
     productsdb = [
         { 'id': 0, 'title': 'Apples', 'price': 1.20 },
         { 'id': 1, 'title': 'Bananas', 'price': 1.45 },
